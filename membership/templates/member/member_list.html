@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Sayfa Başlığı</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Sidebar Başlığı</h2>
+        <ul>
+            <li>
+                <a href="#">Ana Sayfa</a>
+            </li>
+            <li>
+                <a href="#">Haberler</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Yerel Haberler</a></li>
+                    <li><a href="#">Dünya Haberleri</a></li>
+                </ul>
+            </li>
+            <!-- Diğer menü öğeleri burada -->
+        </ul>
+    </div>
+</body>
+</html>
